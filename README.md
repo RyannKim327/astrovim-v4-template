@@ -1,4 +1,7 @@
-# AstroNvim Template
+### AstroNvim Template [Modified]
+#### MPOP Reverse II with AstroVIM
+
+---
 
 **NOTE:** This is for AstroNvim v4+
 
@@ -27,8 +30,24 @@ You can also just clone this repository directly if you do not want to track you
 git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```
 
+#### Clone my template
+```shell
+git clone https://github.com/RyaKim327/astrovim-v4-template
+```
+
+#### To Update the repository
+```shell
+cd ~/.config/nvim
+git pull
+```
+
 #### Start Neovim
 
 ```shell
 nvim
 ```
+
+---
+### Credits
+* AstroVIM
+* Salvador [itsmenewbie03]

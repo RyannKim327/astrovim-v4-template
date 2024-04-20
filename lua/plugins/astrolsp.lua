@@ -24,6 +24,10 @@ return {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
           -- "go",
+          "html",
+          "css",
+          "js",
+          "python",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
