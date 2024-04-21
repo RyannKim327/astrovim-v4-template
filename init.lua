@@ -28,4 +28,6 @@ require "polish"
 
 vim.opt.number = true
 vim.opt.relativenumber = false
-vim.opt.mouse = ""
+
+-- To use the silicon, press Leader s c
+vim.opt.mouse = "" -- Comment this line to use the Silicode
