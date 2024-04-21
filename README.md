@@ -1,5 +1,5 @@
 ### AstroNvim Template [Modified]
-#### MPOP Reverse II with AstroVIM
+#### MPOP Reverse II with AstroVIM and itsmenewbie03
 
 ---
 
@@ -32,7 +32,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 
 #### Clone my template
 ```shell
-git clone https://github.com/RyaKim327/astrovim-v4-template
+git clone https://github.com/RyaKim327/astrovim-v4-template ~/.config/nvim
 ```
 
 #### To Update the repository
