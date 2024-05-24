@@ -31,4 +31,4 @@ require "polish"
 -- vim.opt.signcolumn = "number"
 
 -- To use the silicon, press Leader s c
-vim.opt.mouse = "" -- Comment this line to use the Silicode
+-- vim.opt.mouse = "" -- Comment this line to use the Silicode
