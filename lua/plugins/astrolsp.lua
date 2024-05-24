@@ -28,6 +28,7 @@ return {
           "css",
           "js",
           "python",
+          "java",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
