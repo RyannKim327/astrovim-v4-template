@@ -3,13 +3,10 @@ return {
   name = "catppuccin",
   opts = {
     transparent_background = true,
-    -- flavour = "mocha",
-    -- background_colour = "#000000",
-    custom_highlights = {
-      background_colour = "#000000",
-    },
+    flavour = "frappe",
+    custom_hughlights = {},
     integrations = {
-      neotree = true,
-    },
-  },
+      neotree = false
+    }
+  }
 }
