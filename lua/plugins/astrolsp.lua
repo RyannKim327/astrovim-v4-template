@@ -67,6 +67,7 @@ return {
 					"svelte",
 					"blade.php",
 					"blade",
+					"python",
 				},
 				init_options = {
 					exclude_languages = {},
