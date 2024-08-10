@@ -26,9 +26,3 @@ end
 require "lazy_setup"
 require "polish"
 
--- vim.opt.number = true
--- vim.opt.relativenumber = false
--- vim.opt.signcolumn = "number"
-
--- To use the silicon, press Leader s c
--- vim.opt.mouse = "" -- Comment this line to use the Silicode
