@@ -1,3 +1,5 @@
+-- TODO: To enable this the mouse is off, just click v (in lowercase) and then use the h, j, k, l keys to navigate then press <leader>sc
+
 return {
 	"michaelrommel/nvim-silicon",
 	lazy = true,
