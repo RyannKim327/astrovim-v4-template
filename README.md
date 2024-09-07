@@ -32,7 +32,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 
 #### Clone my template
 ```shell
-git clone https://github.com/RyaKim327/astrovim-v4-template ~/.config/nvim
+git clone https://github.com/RyannKim327/astrovim-v4-template ~/.config/nvim
 ```
 
 #### To Update the repository
@@ -46,6 +46,15 @@ git pull
 ```shell
 nvim
 ```
+
+---
+### Termux Configuration
+1. Download and install Termux from [FDroid](https://f-droid.org/en/packages/com.termux/https://f-droid.org/en/packages/com.termux/)
+2. Grant Permission executing `termux-setup-storage` or to manually granting it through your android settings
+3. Install neovim using `pkg install neovim`
+4. If you already have the configurations aside of AstroVIM, you may create backup using [This method](#Make-a-backup-of-your-current-nvim-and-shared-folder) 
+5. Then clone this [repository](#clone-my-template)
+6. Then you may now execute `nvim` into your termux, and wait until the downloading process finished. Expect that there are some errors in downloads, but it still works.
 
 ---
 ### Credits
