@@ -57,6 +57,15 @@ nvim
 6. Then you may now execute `nvim` into your termux, and wait until the downloading process finished. Expect that there are some errors in downloads, but it still works.
 
 ---
+### Windows NVIM Setup
+1. Install Neovim from the [source](https://neovim.io)
+2. Clone this repository using git, and copy all the files inside of the folder `astrovim-v4-template`
+3. Next is to go in your nvim directory `C:\Users\PC\AppData\Local` and look for `nvim` folder
+4. If the folder is not exists, kindly create a file `nvim` the `nvim-data` is not we are looking for, its different.
+5. Open the folder `nvim` and paste the copied files inside.
+6. Test if it works by executing `nvim` into your terminal.
+
+---
 ### Credits
 * AstroVIM
 * Salvador [itsmenewbie03]
