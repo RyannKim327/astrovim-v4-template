@@ -30,7 +30,10 @@ return {
 				"▒█▀▄▒██▀░█▒█▒██▀▒█▀▄░▄▀▀▒██▀░░░█░█",
 				"░█▀▄░█▄▄░▀▄▀░█▄▄░█▀▄▒▄██░█▄▄▒░░█░█",
 				" ",
-				"	https://github.com/RyannKim327",
+				"  https://github.com/RyannKim327",
+				" ",
+				"        I may know something",
+				"         But not everything"
 	
 			}
 			return opts

@@ -31,6 +31,7 @@ return {
 					"typescript",
 					"typescriptreact",
 					"rust",
+					"python"
 				},
 				ignore_filetypes = { -- disable format on save for specified filetypes
 					-- "python",
