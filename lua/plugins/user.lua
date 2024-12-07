@@ -23,6 +23,20 @@ return {
 		opts = function(_, opts)
 			-- customize the dashboard header
 			
+			-- 34 characters in total
+			local texts = {
+				{
+					"       I may know something       ",
+					"        But not everything        "
+				}, {
+					"  Programming isn't about syntax  ",
+					"    It is also about the logic    "
+				},{
+					"      People won't understand     ",
+					"       what you really doing      "
+				}
+			}
+			local x = math.floor(math.random(1, #texts))
 			opts.section.header.val = {
 				"░░░░░░░░░█▄▒▄█▒█▀▄░▄▀▄▒█▀▄░░░░░░░░",
 				"░░░░░░░░░█▒▀▒█░█▀▒░▀▄▀░█▀▒░░░░░░░░",
@@ -32,9 +46,8 @@ return {
 				" ",
 				"  https://github.com/RyannKim327",
 				" ",
-				"        I may know something",
-				"         But not everything"
-	
+				texts[x][1],
+				texts[x][2],
 			}
 			return opts
 		end,

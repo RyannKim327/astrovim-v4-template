@@ -65,6 +65,7 @@ return {
 					"sass",
 					"scss",
 					"pug",
+					"tailwindcss",
 					"typescript",
 					"typescriptreact",
 					"php",
@@ -72,6 +73,7 @@ return {
 					"blade.php",
 					"blade",
 					"python",
+					"rust"
 				},
 				init_options = {
 					exclude_languages = {},
