@@ -12,14 +12,17 @@ return {
 			-- add more things to the ensure_installed table protecting against community packs modifying it
 			opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
 				"lua_ls",
-				"javascript",
-				"typescrupt",
 				"html",
-				"css",
-				"react",
-				"node",
-				"rust",
-				"python",
+				"cssls",
+				"cssmodules_ls",
+				"eslint",
+				"jsonls",
+				"ltex",
+				"rust_analyzer",
+				"svelte",
+				"pyright",
+				"ruff",
+				"unocss",
 				"tailwindcss"
 				-- add more arguments for adding more language servers
 			})

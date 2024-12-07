@@ -34,6 +34,12 @@ return {
 				},{
 					"      People won't understand     ",
 					"       what you really doing      "
+				},{
+					"    Never base on the quantity    ",
+					"    Its all about the quality     "
+				}, {
+					"   There's always a secret path   ",
+					"  We'd just discovered in random  "
 				}
 			}
 			local x = math.floor(math.random(1, #texts))
