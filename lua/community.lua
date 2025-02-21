@@ -10,6 +10,11 @@ return {
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.python" },
 	{ import = "astrocommunity.pack.typescript" },
+	{ import = "astrocommunity.pack.tailwindcss" },
+	-- { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
+	{ import = "astrocommunity.pack.cs" },
+	{ import = "astrocommunity.pack.java" },
+	-- { import = "astrocommunity.pack.hyprlang" },
 	{ import = "astrocommunity.note-taking.obsidian-nvim" },
 	-- import/override with your plugins folder
 }

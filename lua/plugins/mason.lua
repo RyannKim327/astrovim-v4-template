@@ -23,7 +23,8 @@ return {
 				"pyright",
 				"ruff",
 				"unocss",
-				"tailwindcss"
+				"tailwindcss",
+				"ts_ls"
 				-- add more arguments for adding more language servers
 			})
 		end,

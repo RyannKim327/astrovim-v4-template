@@ -7,7 +7,7 @@
 -- Set up custom filetypes
 
 require("notify").setup {
-	background_colour = "#000000"
+	background_colour = "#333333",
 }
 
 vim.filetype.add {
