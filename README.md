@@ -3,8 +3,8 @@
 
 ---
 ### Current Interface
+![](current_landing.png)
 ![](current_version.png)
-
 
 **NOTE:** This is for AstroNvim v4+
 
