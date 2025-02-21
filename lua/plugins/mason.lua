@@ -16,6 +16,7 @@ return {
 				"cssls",
 				"cssmodules_ls",
 				"eslint",
+				"hyprls",
 				"jsonls",
 				"ltex",
 				"rust_analyzer",

@@ -12,8 +12,9 @@ return {
 	{ import = "astrocommunity.pack.typescript" },
 	{ import = "astrocommunity.pack.tailwindcss" },
 	-- { import = "astrocommunity.pack.rainbow-delimiter-indent-blankline" },
-	{ import = "astrocommunity.pack.cs" },
+	-- { import = "astrocommunity.pack.cs" },
 	{ import = "astrocommunity.pack.java" },
+	-- { import = "astrocommunity.pack.git" },
 	-- { import = "astrocommunity.pack.hyprlang" },
 	{ import = "astrocommunity.note-taking.obsidian-nvim" },
 	-- import/override with your plugins folder

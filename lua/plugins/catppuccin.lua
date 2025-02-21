@@ -4,7 +4,7 @@ return {
   opts = {
     transparent_background = true,
     flavour = "frappe",
-    custom_highlights = {},
+    custom_hughlights = {},
     integrations = {
       neotree = false
     }

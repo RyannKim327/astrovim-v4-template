@@ -26,6 +26,7 @@ return {
 					-- "go",
 					"html",
 					"css",
+					"java",
 					"javascript",
 					"javascriptreact",
 					"typescript",

@@ -33,7 +33,7 @@ return {
 				signcolumn = "auto", -- sets vim.opt.signcolumn to auto
 				wrap = false, -- sets vim.opt.wrap ->
 				mouse = "", -- Mouse deactivation
-				guifont = "CaskaydiaCove Nerd Font",
+				guifont = "CaskaydiaCove Nerd Mono Font",
 			},
 			g = { -- vim.g.<key>
 				-- configure global vim variables (vim.g)
