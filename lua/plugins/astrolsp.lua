@@ -29,10 +29,11 @@ return {
 					"java",
 					"javascript",
 					"javascriptreact",
+					"lua",
 					"typescript",
 					"typescriptreact",
 					"rust",
-					"python"
+					"python",
 				},
 				ignore_filetypes = { -- disable format on save for specified filetypes
 					-- "python",
@@ -63,6 +64,7 @@ return {
 					"javascript",
 					"javascriptreact",
 					"less",
+					"lua",
 					"sass",
 					"scss",
 					"pug",
@@ -74,7 +76,7 @@ return {
 					"blade.php",
 					"blade",
 					"python",
-					"rust"
+					"rust",
 				},
 				init_options = {
 					exclude_languages = {},

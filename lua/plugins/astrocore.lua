@@ -33,7 +33,9 @@ return {
 				signcolumn = "auto", -- sets vim.opt.signcolumn to auto
 				wrap = false, -- sets vim.opt.wrap ->
 				mouse = "", -- Mouse deactivation
-				guifont = "CaskaydiaCove Nerd Mono Font",
+				guifont = "CaskaydiaCove Nerd Font Mono",
+				shiftwidth = 2,
+				tabstop = 2,
 			},
 			g = { -- vim.g.<key>
 				-- configure global vim variables (vim.g)
@@ -65,7 +67,7 @@ return {
 				-- this is useful for naming menus
 				["<Leader>b"] = { desc = "Buffers" },
 				-- quick save
-				["<Leader>w"] = { ":w!<cr>", desc = "Save File" },	-- change description but the same command
+				["<Leader>w"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
 			},
 			t = {
 				-- setting a mapping to false will disable it

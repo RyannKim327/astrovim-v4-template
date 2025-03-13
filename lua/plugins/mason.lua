@@ -16,7 +16,7 @@ return {
 				"cssls",
 				"cssmodules_ls",
 				"eslint",
-				"hyprls",
+				-- "hyprls",
 				"jsonls",
 				"ltex",
 				"rust_analyzer",
@@ -25,7 +25,7 @@ return {
 				"ruff",
 				"unocss",
 				"tailwindcss",
-				"ts_ls"
+				-- "ts_ls"
 				-- add more arguments for adding more language servers
 			})
 		end,
@@ -57,7 +57,7 @@ return {
 				"javascript",
 				"typescript",
 				"rust",
-				"tailwindcss"
+				"tailwindcss",
 				-- add more arguments for adding more debuggers
 			})
 		end,
