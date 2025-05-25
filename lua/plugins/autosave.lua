@@ -1,1 +1,4 @@
-return { "907th/vim-auto-save", lazy = false }
+return {
+	"Pocco81/auto-save.nvim",
+	lazy = false,
+}

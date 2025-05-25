@@ -74,5 +74,15 @@ return {
 				-- ["<esc>"] = false,
 			},
 		},
+		git_worktrees = {
+			toplevel = vim.env.HOME,
+			gitdir = vim.env.HOME .. "/.dotfiles",
+		},
+		sessions = {
+			autosave = {
+				last = true,
+				cwl = true,
+			},
+		},
 	},
 }
