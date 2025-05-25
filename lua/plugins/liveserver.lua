@@ -1,1 +1,4 @@
-return { "wolandark/vim-live-server", lazy=false }
+return {
+	"wolandark/vim-live-server",
+	lazy = false,
+}

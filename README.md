@@ -1,5 +1,5 @@
-### AstroNvim Template [Modified]
-#### MPOP Reverse II with AstroVIM and itsmenewbie03
+<h3 align="center">AstroNvim Template [Modified]</h3>
+<h4 align="center"> MPOP Reverse II with AstroVIM and itsmenewbie03</h4>
 
 ---
 ### Current Interface
@@ -70,5 +70,5 @@ nvim
 
 ---
 ### Credits
-* AstroVIM
+* AstroVIM Community
 * Salvador [itsmenewbie03]
