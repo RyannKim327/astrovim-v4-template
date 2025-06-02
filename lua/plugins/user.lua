@@ -22,25 +22,29 @@ return {
 		"goolord/alpha-nvim",
 		opts = function(_, opts)
 			-- customize the dashboard header
-			
+
 			-- 34 characters in total
 			local texts = {
 				{
 					"       I may know something       ",
-					"        But not everything        "
-				}, {
+					"        But not everything        ",
+				},
+				{
 					"  Programming isn't about syntax  ",
-					"    It is also about the logic    "
-				},{
+					"    It is also about the logic    ",
+				},
+				{
 					"      People won't understand     ",
-					"       what you really doing      "
-				},{
+					"       what you really doing      ",
+				},
+				{
 					"    Never base on the quantity    ",
-					"    Its all about the quality     "
-				}, {
+					"    Its all about the quality     ",
+				},
+				{
 					"   There's always a secret path   ",
-					"  We'd just discovered in random  "
-				}
+					"  We'd just discovered in random  ",
+				},
 			}
 			local x = math.floor(math.random(1, #texts))
 			opts.section.header.val = {
@@ -73,33 +77,31 @@ return {
 		end,
 	},
 
-	{
-		"windwp/nvim-autopairs",
-		config = function(plugin, opts)
-			require "astronvim.plugins.configs.nvim-autopairs"(plugin, opts) -- include the default astronvim config that calls the setup call
-			-- add more custom autopairs configuration such as custom rules
-			local npairs = require "nvim-autopairs"
-			local Rule = require "nvim-autopairs.rule"
-			local cond = require "nvim-autopairs.conds"
-			npairs.add_rules(
-				{
-					Rule("$", "$", { "tex", "latex" })
-						-- don't add a pair if the next character is %
-						:with_pair(cond.not_after_regex "%%")
-						-- don't add a pair if	the previous character is xxx
-						:with_pair(
-							cond.not_before_regex("xxx", 3)
-						)
-						-- don't move right when repeat character
-						:with_move(cond.none())
-						-- don't delete if the next character is xx
-						:with_del(cond.not_after_regex "xx")
-						-- disable adding a newline when you press <cr>
-						:with_cr(cond.none()),
-				},
-				-- disable for .vim files, but it work for another filetypes
-				Rule("a", "a", "-vim")
-			)
-		end,
-	},
+	-- {
+	-- 	"windwp/nvim-autopairs",
+	-- 	config = function(plugin, opts)
+	-- 		require "astronvim.plugins.configs.nvim-autopairs"(plugin, opts) -- include the default astronvim config that calls the setup call
+	-- 		-- add more custom autopairs configuration such as custom rules
+	-- 		local npairs = require "nvim-autopairs"
+	-- 		local Rule = require "nvim-autopairs.rule"
+	-- 		local cond = require "nvim-autopairs.conds"
+	-- 		npairs.add_rules(
+	-- 			{
+	-- 				Rule("$", "$", { "tex", "latex" })
+	-- 					-- don't add a pair if the next character is %
+	-- 					:with_pair(cond.not_after_regex "%%")
+	-- 					-- don't add a pair if	the previous character is xxx
+	-- 					:with_pair(cond.not_before_regex("xxx", 3))
+	-- 					-- don't move right when repeat character
+	-- 					:with_move(cond.none())
+	-- 					-- don't delete if the next character is xx
+	-- 					:with_del(cond.not_after_regex "xx")
+	-- 					-- disable adding a newline when you press <cr>
+	-- 					:with_cr(cond.none()),
+	-- 			},
+	-- 			-- disable for .vim files, but it work for another filetypes
+	-- 			Rule("a", "a", "-vim")
+	-- 		)
+	-- 	end,
+	-- },
 }
