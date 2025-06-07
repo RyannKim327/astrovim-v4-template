@@ -35,7 +35,7 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 
 #### Clone my template
 ```shell
-git clone https://github.com/RyannKim327/astrovim-v4-template ~/.config/nvim
+git clone https://github.com/RyannKim327/astrovim-template-configurations ~/.config/nvim
 ```
 
 #### To Update the repository
@@ -62,7 +62,7 @@ nvim
 ---
 ### Windows NVIM Setup
 1. Install Neovim from the [source](https://neovim.io)
-2. Clone this repository using git, and copy all the files inside of the folder `astrovim-v4-template`
+2. Clone this repository using git, and copy all the files inside of the folder `astrovim-template-configurations`
 3. Next is to go in your nvim directory `C:\Users\PC\AppData\Local` and look for `nvim` folder
 4. If the folder is not exists, kindly create a file `nvim` the `nvim-data` is not we are looking for, its different.
 5. Open the folder `nvim` and paste the copied files inside.
