@@ -39,7 +39,7 @@ return {
 				},
 				{
 					"    Never base on the quantity    ",
-					"    Its all about the quality     ",
+					"     Its all about the quality   ",
 				},
 				{
 					"   There's always a secret path   ",
