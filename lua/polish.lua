@@ -10,14 +10,14 @@ require("notify").setup {
 	background_colour = "#333333",
 }
 
-vim.filetype.add {
-	extension = {
-		foo = "fooscript",
-	},
-	filename = {
-		["Foofile"] = "fooscript",
-	},
-	pattern = {
-		["~/%.config/foo/.*"] = "fooscript",
-	},
-}
+-- vim.filetype.add {
+-- 	extension = {
+-- 		foo = "fooscript",
+-- 	},
+-- 	filename = {
+-- 		["Foofile"] = "fooscript",
+-- 	},
+-- 	pattern = {
+-- 		["~/%.config/foo/.*"] = "fooscript",
+-- 	},
+-- }

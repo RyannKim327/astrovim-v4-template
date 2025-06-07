@@ -38,6 +38,7 @@ return {
 				tabstop = 2,
 				softtabstop = 2,
 				expandtab = true,
+				scrolloff = 10,
 			},
 			g = { -- vim.g.<key>
 				-- configure global vim variables (vim.g)
