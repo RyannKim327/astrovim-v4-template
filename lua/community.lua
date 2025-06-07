@@ -21,5 +21,6 @@ return {
 	{ import = "astrocommunity.markdown-and-latex.markview-nvim" },
 	{ import = "astrocommunity.pack.hyprlang" },
 	{ import = "astrocommunity.note-taking.obsidian-nvim" },
+	{ import = "astrocommunity.recipes.ai" },
 	-- import/override with your plugins folder
 }

@@ -36,6 +36,8 @@ return {
 				guifont = "CaskaydiaCove Nerd Font Mono",
 				shiftwidth = 2,
 				tabstop = 2,
+				softtabstop = 2,
+				expandtab = true,
 			},
 			g = { -- vim.g.<key>
 				-- configure global vim variables (vim.g)
