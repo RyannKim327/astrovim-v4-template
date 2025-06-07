@@ -26,6 +26,7 @@ return {
 					-- "go",
 					"html",
 					"css",
+					"hyprls",
 					"java",
 					"javascript",
 					"javascriptreact",
